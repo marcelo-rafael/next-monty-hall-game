@@ -29,7 +29,7 @@
  Monty Hall Game 🚀
 </h4>
 
-<p align="center"><a href="https://simple-next-crud.vercel.app/">Deploy on Vercel</a></p>
+<p align="center"><a href="https://next-monty-hall-game.vercel.app/">Deploy on Vercel</a></p>
 
 ---
 
