@@ -18,7 +18,7 @@ export default function Formulario() {
         </Cartao>
         <Cartao>
           <EntradaNumerica 
-            text="Qtde Portas" 
+            text="Quantidade de Portas" 
             value={qtdePortas}
             onChange={novaQtde => setQtdePortas(novaQtde)}
             />
@@ -33,7 +33,7 @@ export default function Formulario() {
             />
         </Cartao>
         <Cartao bgcolor="#28a085">
-          <Link href={`/jogo/${qtdePortas}/${comPresente}`}>
+          <Link passHref href={`/jogo/${qtdePortas}/${comPresente}`}>
             <h2  className={styles.link} >
               Iniciar
             </h2>
