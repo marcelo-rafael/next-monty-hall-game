@@ -10,7 +10,7 @@ import styles from '../../../styles/Jogo.module.css'
 export default function jogo() {
   const router = useRouter()
 
-  const [portas, setPortas] = useState(criarPortas(4, 3))
+  const [portas, setPortas] = useState(criarPortas(4, 2))
 
   useEffect(() => {
     const portas = +router.query.portas
