@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Link from 'next/link'
+
 import Porta from '../components/Porta'
 import { atualizarPortas, criarPortas } from '../functions/portas'
 
@@ -18,10 +20,17 @@ export default function jogo() {
   }
   return (
     <div className={styles.jogo}>
+
       <div className={styles.portas}>
         {renderizarPortas()}
       </div>
-      <div className={styles.botoes}></div>
+
+      <div className={styles.botoes}>
+        <Link href="/">
+          <button>Reiniciar Jogo</button>
+        </Link>
+      </div>
+      
     </div>
   )
 }
